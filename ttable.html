@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tableStyle.css">
+    <title>Table</title>
+</head>
+<body>
+    <table>
+        <caption>ข้อมูลลูกค้า</caption>
+        <tr>
+            <th>ลำดับ</th>
+            <th>ชื่อสินค้า</th>
+            <th>รูปสินค้า</th>
+            <th>รายละเอียด</th>
+        </tr>
+        <tr>
+            <form action="detail.php" method="post">
+                <input type="hidden" name="pname" value="RIG Roll">
+                <input type="hidden" name="pcount" value="1 EA">
+                <input type="hidden" name="pprice" value="200 BTC">
+                <input type="hidden" name="pimg" value="rig.gif">
+                <input type="hidden" name="pdate" value="31/01/2002">
+            <td>001</td>
+            <td>RIG</td>
+            <td><img src="rig.gif" width="200px" height="200px"></td>
+            <td><input type="submit" value="รายละเอียด"></td>
+            </form>
+        </tr>
+        <tr>
+            <form action="detail.php" method="post">
+                <input type="hidden" name="pname" value="Special Cat">
+                <input type="hidden" name="pcount" value="1 EA">
+                <input type="hidden" name="pprice" value="250 BTC">
+                <input type="hidden" name="pimg" value="cat.gif">
+                <input type="hidden" name="pdate" value="31/01/2002">
+            <td>002</td>
+            <td>Cat</td>
+            <td><img src="cat.gif" width="200px" height="200px"></td>
+            <td><input type="submit" value="รายละเอียด"></td>
+            </form>
+        </tr>
+        <tr>
+            <form action="detail.php" method="post">
+                <input type="hidden" name="pname" value="Metal gear solid">
+                <input type="hidden" name="pcount" value="1 EA">
+                <input type="hidden" name="pprice" value="300 BTC">
+                <input type="hidden" name="pimg" value="mgs.gif">
+                <input type="hidden" name="pdate" value="31/01/2002">
+            <td>003</td>
+            <td>MGS</td>
+            <td><img src="mgs.gif" width="200px" height="200px"></td>
+            <td><input type="submit" value="รายละเอียด"></td>
+            </form>
+        </tr>
+    </table>
+</body>
+</html>

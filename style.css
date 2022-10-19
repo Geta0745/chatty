@@ -1,0 +1,42 @@
+html , body {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-header {
+    background-color: black;
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.frame {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+.image {
+    width: 25%;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    display: block;
+    width: 10%;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.buttom-footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}

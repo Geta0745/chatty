@@ -1,0 +1,23 @@
+
+th, td{
+    border-color: black;
+    border:1px solid black;
+    background-color: powderblue;
+    border-style: dotted;
+}
+
+th{
+    width: 150x;
+}
+
+.dot {
+    border-style: dotted;
+}
+
+.dash{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
